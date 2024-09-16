@@ -46,11 +46,15 @@ Ensure you have Node.js and npm (or yarn) installed. You will also need to have 
 
 	const API_KEY="Enter you API KEY";
 
-6.Start the development server:
+6.Run React-Native Doctor for checkinig requirements:
+
+	npx react-native doctor
+
+7.Start the development server:
 
  	npx react-native start
 
-7.Run the app on iOS or Android:
+8.Run the app on iOS or Android:
 
   For iOS:
 

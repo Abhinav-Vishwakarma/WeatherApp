@@ -44,7 +44,8 @@ Ensure you have Node.js and npm (or yarn) installed. You will also need to have 
   
 5.Set up API_KEY
 
-	const API_KEY="Enter you API KEY";
+	Go to ../components/Home.js
+	Edit const API_KEY="Enter you API KEY";
 
 6.Run React-Native Doctor for checkinig requirements:
 

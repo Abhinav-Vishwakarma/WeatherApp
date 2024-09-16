@@ -114,7 +114,7 @@ function Home(){
     <View style={styles.overlay}>
       <View style={styles.searchContainer}>
         <TextInput
-          //onSubmitEditing={() => fetchWeather(city)}
+          onSubmitEditing={() => fetchWeather(city)}
           onChangeText={setCity}
           value={city}
           style={styles.searchInput}

@@ -28,7 +28,7 @@ Ensure you have Node.js and npm (or yarn) installed. You will also need to have 
 
 1.Clone the repository:
 
-	git clone https://github.com/your-username/weather-app.git
+	git clone https://github.com/Abhinav-Vishwakarma/WeatherApp.git
 
 2.Navigate to the project directory:
 

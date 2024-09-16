@@ -1,6 +1,8 @@
 apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
+//apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 
 /**
  * This is the configuration block to customize your React Native Android app.
@@ -86,6 +88,12 @@ android {
         versionName "1.0"
     }
     signingConfigs {
+        release{
+            storeFile file{'WeatherAppKey'}
+            storePassword '#Abhinav1'
+            keyAlias 'WeatherAppKey'
+            keyPassword '#Abhinav1'
+        }
         debug {
             storeFile file('debug.keystore')
             storePassword 'android'

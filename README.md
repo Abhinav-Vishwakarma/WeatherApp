@@ -3,6 +3,9 @@
 ### Overview
 The Weather App is a React Native application that allows users to view current weather information for a specified city or their current location. The app provides details such as temperature, humidity, wind speed, and weather conditions with corresponding icons. It uses the OpenWeatherMap API to fetch weather data and integrates location services to provide weather information based on the user's current location.
 
+### Watch the Video of APP:
+	APP_Video.mp4
+ 
 ### Features
 
 * Search for weather information by city name.
